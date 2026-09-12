@@ -431,7 +431,7 @@
   margin: 0;
 }
 
-@media (max-with: 1000px) {
+@media (max-width: 1000px) {
 
   .hero-section {
     flex-direction: column;
