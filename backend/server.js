@@ -12,7 +12,7 @@ const registerSocketHandlers = require("./socket/socketHandler");
 
 //Connect Frontend to backend  using CORS
 const PORT = process.env.PORT || 5000;
-const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || "http://localhost:5173https://probable-barnacle-ww9q55rx6rjhv4vx-5173.app.github.dev/";
+const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || "http://localhost:5173";
 
 const app = express();
 const server = http.createServer(app);
