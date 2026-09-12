@@ -173,7 +173,7 @@ Authenticated requests must include an `x-auth-token` header with the token retu
 
 ## Home 
 
- ![Home](docs/home.png) 
+ ![Home](docs/Home.png) 
 
 ## Signup 
 
