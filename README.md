@@ -2,7 +2,7 @@
 
 A real-time, synchronized YouTube watching app — create a room, share the room code with friends, and watch a video together with synced play/pause/seek, live chat, and host/moderator controls.
 
-**Live Demo:** [https://youtubewatchliveparty.netlify.app/](https://youtubewatchliveparty.netlify.app)
+**Live Demo:** [https://youtubewatchliveparty.netlify.app](https://youtubewatchliveparty.netlify.app/)
 
 ---
 
