@@ -11,8 +11,8 @@ const roomRoutes = require("./routes/roomRoutes");
 const registerSocketHandlers = require("./socket/socketHandler");
 
 //Connect Frontend to backend  using CORS
-const PORT = process.env.PORT ;
-const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || "https://youtube-watch-party-2-7698.onrender.com";
+const PORT = process.env.PORT  ;
+const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN ||"https://youtubewatchliveparty.netlify.app";
 
 
 const app = express();

@@ -33,7 +33,7 @@ export default function Signup() {
       <Navbar />
       <div className="auth-wrapper">
         <div className="auth-card">
-          <span className="youtube-icon">▶</span>
+          <span className="youtube-icon"></span>
           <h2>Create an Account</h2>
           <p className="subtitle">Join now and start your watch party</p>
 

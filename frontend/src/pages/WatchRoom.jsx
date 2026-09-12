@@ -225,8 +225,7 @@ export default function WatchRoom() {
 
               {canControl && (
                 <button
-                  className="btn btn-outline btn-sm"
-                  style={{ color: "#14142b" }}
+                  className="h-11 px-5 bg-white text-[#14142b] border border-gray-300 rounded-xl font-medium hover:bg-gray-100 transition-all duration-200"
                   onClick={() => setShowChangeVideo(true)}
                 >
                   🔗 Change Video

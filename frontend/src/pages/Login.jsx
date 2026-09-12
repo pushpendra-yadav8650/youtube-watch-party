@@ -32,7 +32,7 @@ export default function Login() {
       <Navbar />
       <div className="auth-wrapper">
         <div className="auth-card">
-          <span className="youtube-icon">▶</span>
+          <span className="youtube-icon"></span>
           <h2>Welcome Back</h2>
           <p className="subtitle">Login to continue watching together</p>
 

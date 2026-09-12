@@ -154,7 +154,6 @@ export default function Home() {
 
           <div>
             <h3>Watch with Friends</h3>
-
             <p>
               Create or join rooms
             </p>

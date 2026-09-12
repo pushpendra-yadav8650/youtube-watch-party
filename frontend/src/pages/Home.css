@@ -61,18 +61,17 @@
 .create-room-btn,
 .join-room-btn {
   height: 55px;
-
   padding: 0 28px;
-
   border-radius: 30px;
-
   font-size: 16px;
-
   font-weight: 600;
-
   cursor: pointer;
-
   transition: all 0.25s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .create-room-btn {
@@ -94,7 +93,7 @@
   background: white;
 
   border: 2px solid #ded9fa;
-
+  
   color: #25214e;
 }
 
@@ -104,11 +103,8 @@
 }
 
 .plus-icon {
-  font-size: 26px;
-
-  margin-right: 10px;
-
-  vertical-align: middle;
+  font-size: 24px;
+  line-height: 2;
 }
 
 .people-icon {
@@ -402,13 +398,12 @@
 }
 
 .feature-icon {
-  min-width: 50px;
-  height: 100px;
-
-  border-radius: 50%;
+  /* width: 80px;
+  min-width: 80px; */
+  /* height: 80px; */
+  /* border-radius: 50%; */
 
   display: flex;
-
   align-items: center;
   justify-content: center;
 
@@ -419,7 +414,6 @@
   );
 
   color: white;
-
   font-size: 25px;
 
   box-shadow:
@@ -427,18 +421,17 @@
 }
 
 .feature-card h3 {
-  font-size: 16px;
-
-  margin-bottom: 6px;
+  font-size: 17px;
+  margin: 0 0 3px 0;
 }
 
 .feature-card p {
   color: #73778a;
-
-  font-size: 13px;
+  font-size: 14px;
+  margin: 0;
 }
 
-@media (max-width: 1000px) {
+@media (max-with: 1000px) {
 
   .hero-section {
     flex-direction: column;

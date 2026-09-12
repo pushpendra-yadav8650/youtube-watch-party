@@ -32,7 +32,7 @@ export default function CreateRoom() {
   return (
     <div className="page">
       <Navbar />
-      <Link to="/" className="back-link">
+      <Link to="/Dashboard" className="back-link">
         ← Back
       </Link>
 
